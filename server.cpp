@@ -1,7 +1,6 @@
-//#define CPPHTTPLIB_OPENSSL_SUPPORT
 #include <fstream>
 #include <string>
-#include <httplib.h>
+#include "./include/httplib.h"
 
 std::string ReadHtmlFile(std::string path) {
 	std::string zz, final;
